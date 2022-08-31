@@ -8,5 +8,5 @@ Find the node in the BST that the node's value equals val and return the subtree
 
 ## Notes
 Tried iterative and recursive approaches. Both appeared to be pretty fast, but recursive is faster.
-* search_bst_iterative.py - beats more than 95% of submissions
-* search_bst_recursive.py - beats more than 99% of submissions. Is limited by the stack size, but seem to be fine fo rthe trees with up to 5000 nodes (on LeetCode at least) 
+* search_bst_iterative.py - O(log N). beats more than 95% of submissions
+* search_bst_recursive.py - O(log N). beats more than 99% of submissions. Is limited by the stack size, but seem to be fine for trees with up to 5000 nodes (on LeetCode at least). The space is O(N) afterall.
