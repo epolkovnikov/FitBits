@@ -20,6 +20,6 @@ Output: [0]
 Python in-place swap is fast and readable comparing to slicing. Slicing is faster than swap, but less readable.
 
 ## Notes
-* move_zeroes1.py - Naive approach with relative positions calc. Runtime: 265 ms, faster than 31.05% of Python3 online submissions
-* move_zeroes2.py - 2 pointer, cut-tail. Runtime: 152 ms, faster than 99.44% of Python3 online submissions
-* move_zeroes3.py - 2 pointer, swap values. Runtime: 156 ms, faster than 98.01% of Python3 online submissions
+* move_zeroes1.py - Naive approach with relative positions calc. O(N). Runtime: 265 ms, faster than 31.05% of Python3 online submissions
+* move_zeroes2.py - 2 pointer, cut-tail. O(N). Runtime: 152 ms, faster than 99.44% of Python3 online submissions
+* move_zeroes3.py - 2 pointer, swap values. O(N). Runtime: 156 ms, faster than 98.01% of Python3 online submissions
