@@ -35,5 +35,5 @@ Only one valid answer exists.
 * Key detection with exception is significantly faster than lookup with "in".
 
 ## Notes
-* two_sum1.py - KeyError  exception on a deictionary. Runtime: 61 ms, faster than 96.76% of Python3 online submissions for Two Sum.
-* two_sum1.py - Lookup in keys. Runtime: 165 ms, faster than 36.69% of Python3 online submissions for Two Sum.
+* two_sum1.py - KeyError  exception on a deictionary. O(N). Runtime: 61 ms, faster than 96.76% of Python3 online submissions for Two Sum.
+* two_sum1.py - Lookup in keys. O(N). Runtime: 165 ms, faster than 36.69% of Python3 online submissions for Two Sum.
